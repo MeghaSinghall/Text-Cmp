@@ -35,6 +35,7 @@ class BinaryHeap {
         }
     }
 
+    
     extractMax() {
         const max = this.heap[0];
         const tmp = this.heap.pop();
